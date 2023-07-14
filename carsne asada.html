@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simgle Recipe || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"><img src="./assets/logo.svg" alt=""></a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        
+        <!-- links -->
+        <div class="nav-links show-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/recipe-1.jpeg" class="img recipe-hero-img" alt="">
+          <article>
+            <h2>Carsne Asada</h2>
+            <p>Carsne asada is a flavorful dish loved by food enthusiasts. Tender, marinated beef with spices creates a mouthwatering experience. Grilled to perfection, it boasts a smoky char and juicy tenderness. Toppings like cilantro, onions, and lime add refreshing contrast. Enjoy it at gatherings or street food markets worldwide. Savor the deliciousness of carsne asada tacos or plates.</p>
+            <!-- recipe icons -->
+            <div class="recipe-icons">
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags --> 
+            <div class="recipe-tags">
+                Tags : <a href="tag-template.html">Beef</a>
+                <a href="breakfast.html">Breakfast</a>
+                <a href="carrots.html">carrots</a>
+                <a href="Food.html">food</a>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+          <h4>instructions</h4>
+              <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p>Marinate the beef in a flavorful mixture.</p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p>Grill or sear the marinated beef until cooked to your desired doneness.</p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p>Allow the beef to rest briefly, then slice it into thin strips.</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                Beef (preferably flank or skirt steak)
+              </p>
+              <p class="single-ingredient">
+                Marinade ingredients (such as lime juice, garlic, cilantro, cumin, chili powder, salt, and pepper)
+              </p>
+              <p class="single-ingredient">
+                Toppings and garnishes (such as fresh cilantro, diced onions, and lime juice)
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Grill</p>
+              <p class="single-tool">Skillet</p>
+              <p class="single-tool">Cutting Board</p>
+              <p class="single-tool">Resealable Plastic Bag</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span>
+        Build by <a href="https://www.linkedin.com/in/shambhavi-soni-b74439239/">Shambhavi Soni</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

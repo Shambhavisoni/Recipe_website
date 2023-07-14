@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simgle Recipe || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"><img src="./assets/logo.svg" alt=""></a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        
+        <!-- links -->
+        <div class="nav-links show-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/scrambled-eggs.jpg" class="img recipe-hero-img" alt="">
+          <article>
+            <h2>Scrambled Eggs with Toast</h2>
+            <p>Scrambled eggs with toast is a classic breakfast dish that never fails to satisfy. Light and fluffy scrambled eggs, seasoned with salt and pepper, are cooked to perfection and served alongside crispy toast. This simple yet comforting combination is a staple on breakfast tables, providing a protein-packed start to the day.</p>
+            <!-- recipe icons -->
+            <div class="recipe-icons">
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags --> 
+            <div class="recipe-tags">
+                Tags : <a href="tag-template.html">Beef</a>
+                <a href="breakfast.html">Breakfast</a>
+                <a href="carrots.html">carrots</a>
+                <a href="Food.html">food</a>
+              </div>
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+          <h4>instructions</h4>
+              <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p>Crack eggs into a bowl and whisk with salt and pepper.</p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p> Heat a non-stick skillet and melt butter. Pour the beaten eggs into the skillet and cook, stirring gently until they reach the desired consistency. </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p>Toast bread slices and serve them alongside the scrambled eggs.</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                Eggs
+              </p>
+              <p class="single-ingredient">
+                salt
+              </p>
+              <p class="single-ingredient">
+                bread slices
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Non-stick skillet</p>
+              <p class="single-tool">whisk for beating the eggs</p>
+              <p class="single-tool">spatula</p>
+              <p class="single-tool">toaster</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span>
+        Build by <a href="https://www.linkedin.com/in/shambhavi-soni-b74439239/">Shambhavi Soni</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

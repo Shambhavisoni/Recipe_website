@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simgle Recipe || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"><img src="./assets/logo.svg" alt=""></a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        
+        <!-- links -->
+        <div class="nav-links show-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/beef-stew-with-carrots-potatoes.jpg" class="img recipe-hero-img" alt="">
+          <article>
+            <h2>Beef Stew</h2>
+            <p>Beef stew is a comforting and hearty dish filled with tender chunks of beef, vegetables, and aromatic flavors simmered in a rich broth. It is a perfect meal for colder days, providing warmth and nourishment. The beef is browned to add depth of flavor, then combined with onions, carrots, celery, and other vegetables, along with herbs and spices. The stew simmers slowly, allowing the flavors to meld and the beef to become melt-in-your-mouth tender. Served with crusty bread or over mashed potatoes, beef stew is a timeless classic that brings comfort to the table.</p>
+            <!-- recipe icons -->
+            <div class="recipe-icons">
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags --> 
+            <div class="recipe-tags">
+                Tags : <a href="tag-template.html">Beef</a>
+                <a href="breakfast.html">Breakfast</a>
+                <a href="carrots.html">carrots</a>
+                <a href="Food.html">food</a>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+          <h4>instructions</h4>
+              <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p>Brown the beef in a pot, then remove it.</p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p>Sauté onions, carrots, and celery in the same pot. </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p>Add the beef back to the pot, along with broth, herbs, and any additional vegetables. Simmer on low heat until the beef is tender and flavors meld together.</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                Beef stew meat
+              </p>
+              <p class="single-ingredient">
+                herbs (such as thyme and bay leaves)
+              </p>
+              <p class="single-ingredient">
+                additional vegetables (such as potatoes or peas)
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Pot or Dutch oven</p>
+              <p class="single-tool">wooden spoon</p>
+              <p class="single-tool"> knife</p>
+              <p class="single-tool">ladle for serving</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span>
+        Build by <a href="https://www.linkedin.com/in/shambhavi-soni-b74439239/">Shambhavi Soni</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

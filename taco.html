@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simgle Recipe || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"><img src="./assets/logo.svg" alt=""></a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        
+        <!-- links -->
+        <div class="nav-links show-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/Beef-Tacos.jpg" class="img recipe-hero-img" alt="">
+          <article>
+            <h2>Beef Tacos</h2>
+            <p>Beef tacos are a delicious Mexican dish consisting of seasoned ground beef, served in warm tortillas and topped with a variety of garnishes. The flavorful beef is cooked with spices such as cumin, chili powder, and garlic, resulting in a savory filling. Topped with shredded cheese, lettuce, salsa, and sour cream, these tacos offer a delightful combination of textures and flavors.</p>
+            <!-- recipe icons -->
+            <div class="recipe-icons">
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags --> 
+            <div class="recipe-tags">
+                Tags : <a href="tag-template.html">Beef</a>
+                <a href="breakfast.html">Breakfast</a>
+                <a href="carrots.html">carrots</a>
+                <a href="Food.html">food</a>
+              </div>
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+          <h4>instructions</h4>
+              <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p>Brown the ground beef in a skillet, breaking it into crumbles. </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p>Add taco seasoning and water, simmer until the beef is cooked and flavors meld. </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p>Warm tortillas and fill them with the seasoned beef, topping with desired condiments like shredded cheese, lettuce, salsa, and sour cream.</p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                Ground beef
+              </p>
+              <p class="single-ingredient">
+                taco seasoning
+              </p>
+              <p class="single-ingredient">
+                condiments (such as shredded cheese, lettuce, salsa, sour cream).
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Skillet</p>
+              <p class="single-tool">tortilla warmer</p>
+              <p class="single-tool">serving platter</p>
+              <p class="single-tool">spatula</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span>
+        Build by <a href="https://www.linkedin.com/in/shambhavi-soni-b74439239/">Shambhavi Soni</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
